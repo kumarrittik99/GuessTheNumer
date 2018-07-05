@@ -6,6 +6,8 @@ while(1):
        print("Guess something lower than this!")
    elif(enteredNumber<randomNumber):
        print("Guess something higher!")
+   elif(enteredNumber<1 or enteredNumber>10)
+       print("Please guess and enter a numberb between 1 to 10)
    else:
        print("Bingo!!! You guessed it right!")
        exit(0)
